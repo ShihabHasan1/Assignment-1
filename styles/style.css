@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
 }
@@ -35,4 +36,47 @@ nav{
     margin-right: 166px;
     margin-top: 38px;
     
+}
+
+/* Banner Styles Start */
+img{
+    margin-top: 26px;
+}
+.banner{
+    max-width: 1440px;
+    height: 652px;
+    margin: 131px auto;
+    background-image: url('/assets/Hero-bg.png');
+}
+.banner-content{
+    text-align: center;
+}
+.banner-heading{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-top: 32px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.btn1{
+    margin: 0 auto;
+    background-color: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
 }

@@ -46,7 +46,7 @@ img{
     max-width: 1440px;
     height: 652px;
     margin: 131px auto;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
 }
 .banner-content{
     text-align: center;
@@ -310,7 +310,7 @@ img{
 /* Support Style*/
 
 .support{
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     width: 1215px;
     height: 314px;
     border-radius: 16px;

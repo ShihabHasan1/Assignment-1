@@ -166,3 +166,224 @@ img{
     gap: 50px;
     margin-top: -128px;
 }
+/* Inspiration Part Start */
+.inspiration{
+    margin-top: 88px;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+}
+.video{
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* Start current target Styles */
+
+.current-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 149px;
+}
+.current-target-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+}
+.current-target-container{
+    display: flex;
+    gap: 24px;
+    width: 1140px;
+    margin: 0 auto;
+   
+   
+}
+.content1{
+    width: 284px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 48px;
+}
+.content1-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+.content1-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.learn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+/* Next target Styles */
+.next-target{
+    margin-top: 115px;
+}
+.next-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+}
+.next-target-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.content2{
+    display: flex;
+    gap: 24px;
+    width: 1140px;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.content2-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 8px;
+}
+.content2-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+/* Footer Styles */
+
+/* Support Style*/
+
+.support{
+    background-image: url('/assets/handshake.jpg');
+    width: 1215px;
+    height: 314px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background-position: -91px -231px;;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+.support-container{
+    text-align: center;
+    padding: 64px 48px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    width: 606px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+footer input[type="text"]{
+    width: 548px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    font-weight: 400;
+    gap: 16px;
+    padding: 19px 20px;
+}
+footer input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+/* Credit Style Start*/
+
+.credit{
+    max-width: 1440px;
+    height: 100px;
+    margin-top: 79px; 
+    padding: 32px 150px;
+}
+.credit-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1215px;
+
+
+}
+.credit-title{
+    width: 500px;
+    height: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -76px;
+}

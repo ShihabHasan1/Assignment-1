@@ -1,5 +1,5 @@
 *{
-    
+    max-width: 1440px;
     margin: 0;
     padding: 0;
 }
@@ -79,4 +79,90 @@ img{
     font-size: 20px;
     font-weight: 600;
     margin-top: 32px;
+}
+
+/* Development section Styles */
+
+
+.development-container-title{
+    
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.development-container-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    
+}
+
+.development-secound-part{
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    gap: 50px;
+}
+.column-content{
+    padding: 50px;
+}
+.column img{
+    width: 259.56px;
+    height: 217.01px;
+}
+.column-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+    
+}
+.column-descripton{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.btn2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+}
+.development-third-part{
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    gap: 25px;
+    margin-top: -128px;
+}
+.column1 img{
+    margin-left: 30px;
+}
+
+.development-forth-part{
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    gap: 50px;
+    margin-top: -128px;
 }
